@@ -36,17 +36,17 @@ h1 {
   list-style: none;
 }
 
-.navbar-item {
+.navbar__item {
   color: var(--light);
   padding: 1rem;
 }
 
-.navbar-item--transition {
+.navbar__item--transition {
   transition: all 0.5s ease-out;
   cursor: pointer;
 }
 
-.navbar-item--transition:hover {
+.navbar__item--transition:hover {
   transform: scaleY(1.1) scaleX(1.1);
 }
 
